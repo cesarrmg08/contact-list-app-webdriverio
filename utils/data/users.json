@@ -1,0 +1,12 @@
+{
+    "user_1":{
+        "email":"invalidemail@hotmail.com",
+        "password":"WrongPassword"
+    },
+    "user_2":{
+        "name":"Juan",
+        "lastName":"Test",
+        "email":"cesartest@test.com",
+        "password":"Testing123"
+    }
+}
