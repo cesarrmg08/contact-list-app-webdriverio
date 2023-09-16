@@ -186,6 +186,7 @@ exports.config = {
      * @param {object}         browser      instance of created browser/device session
      */
     before: function (capabilities, specs) {
+        browser.url('/');
         browser.maximizeWindow();
     },
     /**

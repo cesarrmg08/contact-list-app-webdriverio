@@ -3,17 +3,17 @@ const loginElements = new LoginElements();
 
 export class LoginActions {
   // Type the email on the field
-  async fillEmailField() {
+  async fillEmailField(email) {
     await loginElements.emailField().waitForExist();
     await loginElements.emailField().waitForClickable();
-    await loginElements.emailField().addValue("cesarmanzuetagoris@hotmail.com");
+    await loginElements.emailField().addValue(email);
   }
 
   // Type the password on the field
-  async fillPasswordField() {
+  async fillPasswordField(password) {
     await loginElements.passwordField().waitForExist();
     await loginElements.passwordField().waitForClickable();
-    await loginElements.passwordField().addValue("Testing123aa");
+    await loginElements.passwordField().addValue(password);
   }
 
   async clickSubmitButton() {

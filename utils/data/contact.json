@@ -1,0 +1,12 @@
+{
+    "invalidContact":{
+        "postalCode":"test",
+        "birthdate":"200-5-8"
+    },
+    "errorMessages":{
+        "birthdate":"Birthdate is invalid",
+        "postalCode":"Postal code is invalid",
+        "lastName":"`lastName` is required",
+        "firstName":"`firstName` is required"
+    }
+}
