@@ -2,7 +2,7 @@
 
 ![WebDriverIO Logo](https://webdriver.io/img/webdriverio.png)
 
-This repository contains an automated test suite for the Contact List App using WebDriverIO. This suite allows you to automate the testing of various functionalities within the Contact List App.
+This repository contains an automated test suite for the [Contact List App](https://thinking-tester-contact-list.herokuapp.com/) using WebDriverIO. This suite allows you to automate the testing of various functionalities within the Contact List App.
 
 ## Introduction
 
